@@ -1,5 +1,4 @@
 const sumLargestNumbers = function(data) {
-  // Put your solution here
   let sum1 = data[0];
   let sum2 = data[0];
 
@@ -11,7 +10,6 @@ const sumLargestNumbers = function(data) {
     }
   }
   return sum1 + sum2;
-
 };
 
 console.log(sumLargestNumbers([1, 10]));
